@@ -1,18 +1,41 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+# React To-do App
 
-# Project Name
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-> One paragraph statement about the project.
+> The React To-do App is a **Single Page App** _(SPA)_ built mainly with `ReactjS`. It allows users to add tasks, delete tasks, edit tasks and navigate to different parts of the application without the browser reloading.
 
-![screenshot](./app_screenshot.png)
+> |Mobile Version|Desktop Version
+> |--------------|--------------|
+> |![screenshot](mobile-view.png).|![screenshot2](desktop-view.png)|
 
-Additional description about the project and its features.
+### `About The App`
+
+- The Create-todos-React project is an App that helps the user organize his/her day by allowing the user do the following:
+
+- Add a new task
+  
+- Delete tasks
+
+- Mark a selected task as complete
+
+- Edit tasks by double-clicking the task that the user wants edited
+  
+- Persist data in the browser's `localStorage`
+
+- Use `SVG icons` in React
+- Use `_life-cycle methods_`
+- Use React `Hooks`
+- Create Navigation Menu
+- Deploy projects to `Github`
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- ### Major languages
+  - Javascript, CSS, and HTML
+- ### Frameworks
+  - ReactJS
+- ### Technologies used
+  - Webpack, Babelrc, Linters
 
 ## Live Demo
 
@@ -21,45 +44,40 @@ Additional description about the project and its features.
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
+```
+git clone https://github.com/Gambit142/Create-todos-React.git
+```
 
-### Setup
+and then run
 
-### Install
+```
+npm i
+npm start
+```
 
-### Usage
+## Installation
 
-### Run tests
+to build a production version to `bulid` folder run
 
-### Deployment
-
-
+```
+npm run build
+```
 
 ## Authors
 
-👤 **Author1**
+:man::skin-tone-6: **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@Gambit142](https://github.com/Gambit142)
+- LinkedIn: [Francis Ugorji](www.linkedin.com/in/francis-ugorji-a567b7168)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page]([../../issues/](https://github.com/Gambit142/Create-todos-React/issues)).
 
 ## Show your support
 
@@ -67,9 +85,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Hat tip to Microverse for the opprotunity to learn ReactJS using their platform
+- This App was built by implementing every step in [ibaslogic.com Tutorial Series](https://ibaslogic.com/react-tutorial-for-beginners/)
 
 ## 📝 License
 
