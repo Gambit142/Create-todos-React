@@ -60,7 +60,6 @@ const TodoContainer = () => {
       }),
     );
   };
-
   return (
     <>
       <Navbar />
