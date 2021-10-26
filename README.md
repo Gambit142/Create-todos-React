@@ -23,7 +23,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - Persist data in the browser's `localStorage`
 
 - Use `SVG icons` in React
-- Use `_life-cycle methods_`
+- Use `life-cycle methods`
 - Use React `Hooks`
 - Create Navigation Menu
 - Deploy projects to `Github`
