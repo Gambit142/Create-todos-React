@@ -19,7 +19,14 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - Mark a selected task as complete
 
 - Edit tasks by double-clicking the task that the user wants edited
+  
 - Persist data in the browser's `localStorage`
+
+- Use `SVG icons` in React
+- Use `_life-cycle methods_`
+- Use React `Hooks`
+- Create Navigation Menu
+- Deploy projects to `Github`
 
 ## Built With
 
