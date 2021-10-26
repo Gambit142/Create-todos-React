@@ -1,70 +1,86 @@
-# Getting Started with Create React App
+# React To-do App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+> The React To-do App is a **Single Page App** _(SPA)_ built mainly with `ReactjS`. It allows users to add tasks, delete tasks, edit tasks and navigate to different parts of the application without the browser reloading.
 
-In the project directory, you can run:
+> |Mobile Version|Desktop Version
+> |--------------|--------------|
+> |![screenshot](mobile-view.png).|![screenshot2](desktop-view.png)|
 
-### `npm start`
+### `About The App`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- The Create-todos-React project is an App that helps the user organize his/her day by allowing the user do the following:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- Add a new task
+  
+- Delete tasks
 
-### `npm test`
+- Mark a selected task as complete
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Edit tasks by double-clicking the task that the user wants edited
+- Persist data in the browser's `localStorage`
 
-### `npm run build`
+## Built With
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- ### Major languages
+  - Javascript, CSS, and HTML
+- ### Frameworks
+  - ReactJS
+- ### Technologies used
+  - Webpack, Babelrc, Linters
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Live Demo
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+[Live Demo Link](https://livedemo.com)
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Getting Started
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+To get a local copy up and running follow these simple example steps.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```
+git clone https://github.com/Gambit142/Create-todos-React.git
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+and then run
 
-## Learn More
+```
+npm i
+npm start
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Installation
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+to build a production version to `bulid` folder run
 
-### Code Splitting
+```
+npm run build
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Authors
 
-### Analyzing the Bundle Size
+:man::skin-tone-6: **Author1**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- GitHub: [@Gambit142](https://github.com/Gambit142)
+- LinkedIn: [Francis Ugorji](www.linkedin.com/in/francis-ugorji-a567b7168)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 🤝 Contributing
 
-### Advanced Configuration
+Contributions, issues, and feature requests are welcome!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Feel free to check the [issues page]([../../issues/](https://github.com/Gambit142/Create-todos-React/issues)).
 
-### Deployment
+## Show your support
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Give a ⭐️ if you like this project!
 
-### `npm run build` fails to minify
+## Acknowledgments
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Hat tip to Microverse for the opprotunity to learn ReactJS using their platform
+- This App was built by implementing every step in [ibaslogic.com Tutorial Series](https://ibaslogic.com/react-tutorial-for-beginners/)
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
